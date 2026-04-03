@@ -1,0 +1,17 @@
+function CategoryFilter({ categories, activeCategory, onCategoryChange }) {
+  return (
+    <section className="category-filter">
+      {categories.map((category) => (
+        <button
+          key={category}
+          className={`category-btn ${activeCategory === category ? "active" : ""}`}
+          onClick={() => onCategoryChange(category)}
+        >
+          {category}
+        </button>
+      ))}
+    </section>
+  );
+}
+
+export default CategoryFilter;

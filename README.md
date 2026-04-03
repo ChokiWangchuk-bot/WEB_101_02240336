@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## What is this project?
 This is a TikTok clone built as a practical web development project.
 I used Next.js and Tailwind CSS to replicate core TikTok features.
@@ -30,3 +31,40 @@ npm run dev
 
 ### Step 5: Open in your browser
 http://localhost:3000
+=======
+# Zomato Webpage Recreation
+
+This is a React + Vite project that recreates a simplified Zomato-style food delivery listing page.
+
+## Functionality
+
+- Search restaurants by name or cuisine
+- Filter restaurants by category
+- Display restaurant cards from a reusable data source
+- Responsive layout for desktop, tablet, and mobile
+
+## Component Structure
+
+- `App` - page layout and state management
+- `Header` - brand and search input
+- `CategoryFilter` - reusable category button list
+- `RestaurantCard` - reusable restaurant card UI
+
+## Data Source
+
+- `src/data/restaurants.js`
+  - `categories` array
+  - `restaurants` array of objects used by reusable components
+
+## Tech Stack
+
+- React
+- Vite
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+>>>>>>> 57cde6b (app-clone)
